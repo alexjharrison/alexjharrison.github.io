@@ -1,0 +1,269 @@
+/*   Theme Colors 
+teal: #4aaaa5 
+font color: #777777
+header background: #ffffff
+main header border: #cccccc
+footer background: #666666
+main content background: #ffffff
+main border: #dddddd
+-----------------------*/
+
+
+/* Global Styles 
+-----------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/grey-pattern.png');
+    background-repeat: repeat;
+    min-height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    color:#777777;
+}
+
+li {
+    display: inline;
+}
+
+h1,h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+p {
+    padding-bottom: 15px;
+    line-height: 1.8;
+    
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.floatleft {
+    float:left;
+}
+
+.floatright {
+    float:right;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Header Styles 
+-----------------------*/
+header {
+    background-color: #ffffff;
+    border-bottom: 2px #cccccc solid;
+    margin: 5px;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+ul {
+    margin-right: 5px;
+}
+
+li a{
+    padding: 0px 10px;
+    margin: 0px -3px;
+}
+
+.rightborder {
+    border-right: 2px #dddddd solid;
+}
+
+.top-buffer  {
+    margin-top:30px;
+}
+
+li a:hover {
+    padding: 15px 10px;
+    margin: 0px -3px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    border-radius: 15px;
+    transition-duration: .4s;
+    border: none;
+}
+
+li a:active {
+    padding: 15px 10px;
+    margin: 0px -3px;
+    background-color: #4aaaa5;
+    color:#2c6d6a;
+    border-radius: 15px;
+    transition-duration: .2s;
+    border: none;
+}
+
+
+
+/* About Me Section Styles 
+-----------------------*/
+section.container {
+    background-color: #ffffff;
+    border: 2px #dddddd solid;
+    padding: 40px;
+    margin: 40px auto;
+}
+
+section img {
+    width: 350px;
+    margin: 0 20px 5px 0;
+    border-radius: 5px;
+}
+
+section h2 {
+    border-bottom: 1px #cccccc solid;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+/* Portfolio Styles 
+-----------------------*/
+
+a img:hover {
+    border: 5px #4aaaa5 outset;
+    transition-duration: .4s;
+}
+
+/* Form Section Styles 
+-----------------------*/
+input {
+    width: 99%;
+    line-height: 1.5;
+    margin: -10px 20px 20px 0;
+    font-size: 18px;
+    
+}
+
+.submit {
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 20px;
+}
+
+.message {
+    width: 99%;
+    height: 200px;
+    font-size: 18px;
+}
+
+
+/* Footer Styles 
+-----------------------*/
+footer {
+    text-align: center;
+    background-color: #666666;
+    border-top: 10px #4aaaa5 solid;
+    height: 75px;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+}
+
+.footer-pusher {
+    margin-bottom: 100px;
+}
+
+footer p {
+    margin-top: 20px;
+    color:white;
+    font-size: 15px;
+}
+
+/* Responsive Styles 980px 
+-----------------------*/
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 740px;
+    }
+    section img {
+        width: 300px;
+    }
+    header .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        width: 98%;
+    }
+    .floatleft, .floatright {
+        float:none;
+    }
+    section img {
+        width: 100%;
+    }
+
+    header {
+        margin: 0;
+        text-align: center;
+    }
+
+    .top-buffer {
+        height: 30px;
+        margin: 10px auto 0px auto;
+    }
+    li a:hover {
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+    li a:active {
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    img {
+        float:none;
+    }
+
+    .footer-pusher {
+        margin-bottom: 0;
+    }
+
+    footer {
+        position: relative;
+    }
+}

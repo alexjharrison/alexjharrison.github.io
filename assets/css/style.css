@@ -136,7 +136,7 @@ section.container {
     margin: 40px auto;
 }
 
-section img {
+.index img {
     width: 550px;
     margin: 10px auto;
     border-radius: 5px;
@@ -152,7 +152,7 @@ section h1, section h3 {
 
 section h2 {
     border-top: 1px #cccccc solid;
-    padding-top: 15px;
+    padding:  20px 0 10px 0;
     margin-top: 30px;
 }
 
@@ -168,6 +168,35 @@ a img:hover {
     border: 5px #4aaaa5 outset;
     transition-duration: .4s;
 }
+.portfolio img {
+    /* flex-shrink: 0; */
+    width: 250px;
+    height: 100%;
+    padding: 0;
+}
+.port-item {
+    display: flex;
+    height: 200px;
+    margin: 30px 0;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description a{
+    margin: 3px 10px;
+    display: block;
+}
+.smaller {
+    font-size: 12px;
+}
+.description p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 3px 10px;
+}
+
 
 /* Form Section Styles 
 -----------------------*/
@@ -207,7 +236,7 @@ footer {
 }
 
 .footer-pusher {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 footer p {
@@ -223,7 +252,7 @@ footer p {
     .container {
         width: 740px;
     }
-    section img {
+    .index img {
         width: 450px;
     }
     header .container {
@@ -245,7 +274,7 @@ footer p {
     .floatleft, .floatright {
         float:none;
     }
-    section img {
+    .index img {
         width: 100%;
     }
 
@@ -266,6 +295,10 @@ footer p {
     li a:active {
         padding: 5px 10px;
         border-radius: 5px;
+    }
+
+    .port-item {
+        flex-wrap: wrap;
     }
 
     img {

@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,102 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Alex Harrison Portfolio</title>
 </head>
+
 <body>
     <div class="footer-pusher">
         <header>
             <div class="container">
-                <a href="index.html" class="floatleft"><h1>Alex Harrison</h1></a> 
+                <a href="index.html" class="floatleft">
+                    <h1>Alex Harrison</h1>
+                </a>
                 <div class="top-buffer">
                     <nav class="floatright">
                         <ul>
-                            <li><a href="index.html" class="rightborder">About</a></li>
-                            <li><a href="portfolio.html" class="rightborder">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li>
+                                <a href="index.html" class="rightborder">About</a>
+                            </li>
+                            <li>
+                                <a href="portfolio.html" class="rightborder">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-        <section class="container">
+
+        <section class="container portfolio">
             <h2>Portfolio</h2>
-            <a href="https://alexjharrison.github.io/Word-Guess-Game/" target="_blank"><img src="assets/images/DogWordGuess.png" alt="Dog Game Word Guess"></a> 
-            <a href="https://alexjharrison.github.io/unit-4-game/"><img src="assets/images/RPGGame.PNG" alt="RPG Game" ></a>
-            <a href="https://alexjharrison.github.io/TriviaGame/"><img src="assets/images/Trivia Game.PNG" alt="Trivia Game"></a>
-            <a href="https://alexjharrison.github.io/GifTastic/"><img src="assets/images/Rutgers Info Widget.PNG" alt="Rutgers Info Widget"></a>
-            <a href="#"><img src="assets/images/Rock Paper Scissors.PNG" alt="Rock Paper Scissors"></a>
+            <div class="port-item">
+                <a href="https://alexjharrison.github.io/MP-Rock-Paper-Scissor/" target="_blank">
+                    <img src="assets/images/jeopardy.png" alt="jeopardy game">
+                </a>
+                <div class="description">
+                    <a href="https://alexjharrison.github.io/Jeopardy-Game/" target="_blank">Jeopardy Game</a>
+                    <a href="https://github.com/alexjharrison/Jeopardy-Game" target="_blank" class="smaller">Source Code</a>
+                    <p>Recreates a game of Jeopardy. Pulls from an API that serves real questions from actual games.</p>
+                    <p>*Note: Must load unsafe scripts to play in chrome due to API limitations</p>
+                    <p>Technologies Used: Javascript, Bootstrap, jQuery, CSS, HTML</p>
+                </div>
+            </div>
+            <div class="port-item">
+                <a href="https://alexjharrison.github.io/star-trek-rpg/" target="_blank">
+                    <img src="assets/images/startrekrpg.png" alt="RPG Game">
+                </a>
+                <div class="description">
+                    <a href="https://alexjharrison.github.io/star-trek-rpg/" target="_blank">Star Trek RPG Game</a>
+                    <a href="https://github.com/alexjharrison/star-trek-rpg" target="_blank" class="smaller">Source Code</a>
+                    <p>Game where users battle against multiple adversaries from the Star Trek universe</p>
+                    <p>Technologies Used: Javascript, jQuery, CSS, HTML</p>
+                </div>
+            </div>
+            <div class="port-item">
+                <a href="https://alexjharrison.github.io/MP-Rock-Paper-Scissor/" target="_blank">
+                    <img src="assets/images/rockpaperscissors.png" alt="Multiplayer Rock Paper Scissors">
+                </a>
+                <div class="description">
+                    <a href="https://alexjharrison.github.io/MP-Rock-Paper-Scissor/" target="_blank">Multiplayer Rock Paper Scissors</a>
+                    <a href="https://github.com/alexjharrison/MP-Rock-Paper-Scissor" target="_blank" class="smaller">Source Code</a>
+                    <p>Application that allows multiple users to play Rock paper scissors over the internet. Data is stored
+                        in Firebase to keep track of all users.</p>
+                    <p>Technologies Used: Google Firebase, Javascript, jQuery, CSS, HTML</p>
+                </div>
+            </div>
+            <div class="port-item">
+                <a href="https://alexjharrison.github.io/GifTastic/" target="_blank">
+                    <img src="assets/images/gifgenerator.png" alt="Gif Generator">
+                </a>
+                <div class="description">
+                    <a href="https://alexjharrison.github.io/GifTastic/" target="_blank">TV Show Gif Generator</a>
+                    <a href="https://github.com/alexjharrison/Word-Guess-Game" target="_blank" class="smaller">Source Code</a>
+                    <p>Application that searches giphy.com for gifs of TV shows and retrieves show info from OMDB API.</p>
+                    <p>Technologies Used: Javascript, jQuery, AJAX, CSS, HTML</p>
+                </div>
+            </div>
+            <div class="port-item">
+                <a href="https://alexjharrison.github.io/TriviaGame/" target="_blank">
+                    <img src="assets/images/harrypottertrivia.png" alt="Harry Potter Trivia">
+                </a>
+                <div class="description">
+                    <a href="https://alexjharrison.github.io/TriviaGame/" target="_blank">Harry Potter Trivia Game</a>
+                    <a href="https://github.com/alexjharrison/TriviaGame" target="_blank" class="smaller">Source Code</a>
+                    <p>Game where trivia questions are randomly selected</p>
+                    <p>Technologies Used: Javascript, jQuery, CSS, HTML</p>
+                </div>
+            </div>
+            <div class="port-item">
+                <a href="https://alexjharrison.github.io/Word-Guess-Game/" target="_blank">
+                    <img src="assets/images/dogwordguess.png" alt="Dog Game Word Guess">
+                </a>
+                <div class="description">
+                    <a href="https://alexjharrison.github.io/Word-Guess-Game/" target="_blank">Dog Breed Word Guess Game</a>
+                    <a href="https://github.com/alexjharrison/Word-Guess-Game" target="_blank" class="smaller">Source Code</a>
+                    <p>Game where user guesses letters in a dog breed before they run out of guesses</p>
+                    <p>Technologies Used: Vanilla JS CSS, HTML</p>
+                </div>
+            </div>
         </section>
     </div>
     <footer class="clear">
@@ -38,4 +112,5 @@
         </div>
     </footer>
 </body>
+
 </html>

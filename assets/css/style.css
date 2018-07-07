@@ -137,15 +137,28 @@ section.container {
 }
 
 section img {
-    width: 350px;
-    margin: 0 20px 5px 0;
+    width: 550px;
+    margin: 10px auto;
     border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+section h1, section h3 {
+    text-align: center;
+    padding: 5px;
 }
 
 section h2 {
-    border-bottom: 1px #cccccc solid;
-    padding-bottom: 15px;
-    margin-bottom: 30px;
+    border-top: 1px #cccccc solid;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+section p {
+    padding: 10px 30px;;
+    font-size: 16px;
 }
 
 /* Portfolio Styles 
@@ -211,7 +224,7 @@ footer p {
         width: 740px;
     }
     section img {
-        width: 300px;
+        width: 450px;
     }
     header .container {
         width: 100%;

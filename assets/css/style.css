@@ -299,6 +299,12 @@ footer p {
 
     .port-item {
         flex-wrap: wrap;
+        height: 500px;
+    }
+    .port-item img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
 
     img {

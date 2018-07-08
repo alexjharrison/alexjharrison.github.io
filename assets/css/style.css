@@ -164,7 +164,7 @@ section p {
 /* Portfolio Styles 
 -----------------------*/
 
-a img:hover {
+.portfolio img:hover {
     border: 5px #4aaaa5 outset;
     transition-duration: .4s;
 }
@@ -200,26 +200,18 @@ a img:hover {
 
 /* Form Section Styles 
 -----------------------*/
-input {
-    width: 99%;
-    line-height: 1.5;
-    margin: -10px 20px 20px 0;
-    font-size: 18px;
-    
+.contact {
+    text-align: left;
 }
 
-.submit {
-    width: 200px;
-    height: 50px;
-    background-color: #4aaaa5;
-    color: white;
-    margin-top: 20px;
+.contact img {
+    max-height: 150px;
+    max-width: 100%;
+    margin: 40px 0; 
 }
 
-.message {
-    width: 99%;
-    height: 200px;
-    font-size: 18px;
+.contact h3 {
+    text-align: left;
 }
 
 

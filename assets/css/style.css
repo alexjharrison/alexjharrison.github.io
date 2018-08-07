@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-image: url("/assets/images/bgimage.png");
+    position: absolute;
+    font-family: "Lora", "serif";
+    font-size: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color:#fbf7f5;
+    position: fixed;
+    overflow: hidden;
+}
+
+.sidebar img{
+    height: 200px;
+    border-radius: 50% ;
+    margin: 20px auto;
+    display: block;
+}
+
+.content {
+    margin-left: 220px;
+}
+
+.splash {
+    max-height: 800px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.splash-text {
+    position: absolute;
+    color: white;
+    right: 4%;
+    bottom: 4%;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.splash img {
+    max-height: 800px;
+}
+
+.banner {
+    color: #fbf7f5;
+    font-size: 30px;
+    background-color: #00999E; 
+    height: 50px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        margin: 0;
+        padding: 0;
+    }
+}

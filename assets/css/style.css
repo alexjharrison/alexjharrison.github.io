@@ -6,6 +6,49 @@ body {
     font-size: 20px;
 }
 
+/* /////////////Splash Image///////// */
+
+.splash img {
+    max-height: 800px;
+}
+
+.banner {
+    color: #fbf7f5;
+    font-size: 30px;
+    background-color: #00999E; 
+    height: 50px;
+    padding: 0 10px;
+}
+
+/* /////////////proficiencies//////////////// */
+
+/* svg {
+    height: 80px;
+} */
+
+.card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 99%;
+}
+
+.tech {
+    width: 100px;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.tech p {
+    margin: 0px;
+}
+
+/* //////////////sidebar///////////// */
+
 .sidebar {
     width: 200px;
     height: 100%;
@@ -44,17 +87,7 @@ body {
    -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-.splash img {
-    max-height: 800px;
-}
 
-.banner {
-    color: #fbf7f5;
-    font-size: 30px;
-    background-color: #00999E; 
-    height: 50px;
-    padding: 0 10px;
-}
 
 @media screen and (max-width: 600px) {
     .content {

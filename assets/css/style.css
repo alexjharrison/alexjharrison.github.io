@@ -22,21 +22,16 @@ body {
 
 /* /////////////proficiencies//////////////// */
 
-/* svg {
-    height: 80px;
-} */
-
 .card-wrapper {
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
     height: 130px;
     width: 99%;
 }
 
 .tech {
     width: 100px;
-    padding: 10px 40px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -45,6 +40,11 @@ body {
 
 .tech p {
     margin: 0px;
+}
+
+#materialize {
+    height: 80px;
+    margin: 10px 0;
 }
 
 /* //////////////sidebar///////////// */
@@ -86,6 +86,11 @@ body {
    1px -1px 0 #000,
    -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+#res-link {
+    color: #00A896;
+    margin-top: 20px;
 }
 
 

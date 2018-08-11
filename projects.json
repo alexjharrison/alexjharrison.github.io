@@ -1,0 +1,142 @@
+[
+    {
+        "name": "News Scraper",
+        "description": "Site that scrapes headlines from ArsTechnica.com.  Allows saving articles to MongoDB and adding custom notes",
+        "picture": "/assets/images/ars-scraper.png",
+        "alt": "News Scraper",
+        "tech": ["HTML","CSS","NodeJS","Express","Handlebars","MongoDB","MVC","jQuery","AJAX","Materialize","API routes"],
+        "repository": "https://github.com/alexjharrison/News-Scraper",
+        "deployed": "https://alex-news-scraper.herokuapp.com/",
+        "rating": 8
+    },
+    {
+        "name": "Furry Friends Finder",
+        "description": "Scans through database of dog breed traits to find the best breed for you.",
+        "picture": "/assets/images/furry-friends.png",
+        "alt": "Dog Pictures",
+        "tech": ["HTML","CSS","NodeJS","Express","jQuery","AJAX","Materialize","API Routes"],
+        "repository": "https://github.com/alexjharrison/Furry-Friend-Finder",
+        "deployed": "https://furry-friends-finder.herokuapp.com/",
+        "rating": 9
+    },
+    {
+        "name": "Sandwich",
+        "description": "Searches for sandwich and stores result in database. Information pulled from Wikipedia API",
+        "picture": "/assets/images/burger.png",
+        "alt": "Burger",
+        "tech": ["HTML","CSS","NodeJS","Express","Handlebars","jQuery","MVC","AJAX","API Routes","Materialize"],
+        "repository": "https://github.com/alexjharrison/Burger",
+        "deployed": "https://alex-burger.herokuapp.com/",
+        "rating": 6
+    },
+    {
+        "name": "Flicks Picks",
+        "description": "Uses browser location data to identify the best movies showing near you at this time.",
+        "picture": "/assets/images/flickspicks.png",
+        "alt": "Flicks Picks",
+        "tech": ["HTML","CSS","NodeJS","Express","Handlebars","jQuery","MVC","AJAX","API Routes"],
+        "repository": "https://github.com/alexjharrison/Project-Two",
+        "deployed": "https://flicks-picks.herokuapp.com/",
+        "rating": 7
+    },
+    {
+        "name": "BAmazon",
+        "description": "Sample CLI app for inventory management.  Supports client, manager & supervisor views.",
+        "picture": "/assets/images/bamazon.png",
+        "alt": "Amazon Inventory",
+        "tech": ["NodeJS","MySQL","CLI"],
+        "repository": "https://github.com/alexjharrison/Project-Two",
+        "deployed": "",
+        "rating": 6
+    },
+    {
+        "name": "Jeopardy Game",
+        "description": "Recreates a game of Jeopardy. Pulls from an API that serves real questions from actual games.",
+        "picture": "/assets/images/jeopardy.png",
+        "alt": "Jeopardy",
+        "tech": ["HTML","CSS","AJAX", "Bootstrap", "jQuery"],
+        "repository": "https://github.com/alexjharrison/Jeopardy-Game",
+        "deployed": "https://alexjharrison.github.io/Jeopardy-Game/",
+        "rating": 7
+    },
+    {
+        "name": "US States Hangman",
+        "description": "CLI app that uses a JSON file with list of US States and territories to generate Hangman Clues.",
+        "picture": "/assets/images/us-states-hangman.png",
+        "alt": "Hangman",
+        "tech": ["NodeJS","CLI"],
+        "repository": "https://github.com/alexjharrison/Constructor-Word-Guess",
+        "deployed": "",
+        "rating": 4
+    },
+    {
+        "name": "Liri Node App",
+        "description": "CLI App that takes in command line arguments to make external API calls",
+        "picture": "/assets/images/liri.png",
+        "alt": "Liri",
+        "tech": ["NodeJS", "CLI"],
+        "repository": "https://github.com/alexjharrison/Liri-Node-App",
+        "deployed": "",
+        "rating": 3
+    },
+    {
+        "name": "MP Rock Paper Scissors",
+        "description": "Uses firebase live server to facilitate unlimited number of people in games of rock paper scissors.",
+        "picture": "/assets/images/rockpaperscissors.png",
+        "alt": "Multiplayer Rock Paper Scissors",
+        "tech": ["HTML","CSS","Google Firebase","jQuery"],
+        "repository": "https://github.com/alexjharrison/MP-Rock-Paper-Scissor",
+        "deployed": "https://alexjharrison.github.io/MP-Rock-Paper-Scissor/",
+        "rating": 7
+    },
+    {
+        "name": "Giftastic",
+        "description": "Application that searches giphy.com for gifs of TV shows and retrieves show info from OMDB API.",
+        "picture": "/assets/images/gifgenerator.png",
+        "alt": "Giftastic",
+        "tech": ["HTML","CSS","AJAX","jQuery"],
+        "repository": "https://github.com/alexjharrison/GifTastic",
+        "deployed": "https://alexjharrison.github.io/GifTastic/",
+        "rating": 6
+    },
+    {
+        "name": "Harry Potter Trivia",
+        "description": "Harry Potter Trivia where the user can play a game of 3, 6, 9, or 12 random questions.",
+        "picture": "/assets/images/harrypottertrivia.png",
+        "alt": "Harry Potter trivia",
+        "tech": ["HTML","CSS","jQuery"],
+        "repository": "https://github.com/alexjharrison/GifTastic",
+        "deployed": "https://alexjharrison.github.io/GifTastic/",
+        "rating": 5
+    },
+    {
+        "name": "Star Trek RPG",
+        "description": "Game where users battle against multiple adversaries from the Star Trek universe.",
+        "picture": "/assets/images/startrekrpg.png",
+        "alt": "Star Trek RPG",
+        "tech": ["HTML","CSS","jQuery"],
+        "repository": "https://github.com/alexjharrison/star-trek-rpg",
+        "deployed": "https://alexjharrison.github.io/star-trek-rpg/",
+        "rating": 7
+    },
+    {
+        "name": "Crystal Game",
+        "description": "Simple game where user clicks crystals and memorizes values to reach the goal score.",
+        "picture": "/assets/images/startrekrpg.png",
+        "alt": "Star Trek RPG",
+        "tech": ["HTML","CSS","jQuery"],
+        "repository": "https://github.com/alexjharrison/Crystal-Game",
+        "deployed": "https://alexjharrison.github.io/Crystal-Game/",
+        "rating": 4
+    },
+    {
+        "name": "Dog Breed Hangman",
+        "description": "Hangman game where the clues are dog breeds. A picture of the breed is revealed at the end of the round.",
+        "picture": "/assets/images/dog-word-guess.png",
+        "alt": "Dog Word Guess",
+        "tech": ["HTML","CSS","Javascript"],
+        "repository": "https://github.com/alexjharrison/Word-Guess-Game",
+        "deployed": "https://alexjharrison.github.io/Word-Guess-Game/",
+        "rating": 5
+    }
+]

@@ -1,7 +1,7 @@
 [
     {
         "name": "News Scraper",
-        "description": "Site that scrapes headlines from ArsTechnica.com.  Allows saving articles to MongoDB and adding custom notes",
+        "description": "Site that scrapes headlines from ArsTechnica.com.  Allows saving articles to MongoDB and adding custom notes.",
         "picture": "/assets/images/ars-scraper.png",
         "alt": "News Scraper",
         "tech": ["HTML","CSS","Javascript","NodeJS","Express","Handlebars","MongoDB","MVC","jQuery","AJAX","Materialize","API routes"],
@@ -21,7 +21,7 @@
     },
     {
         "name": "Sandwich",
-        "description": "Searches for sandwich and stores result in database. Information pulled from Wikipedia API",
+        "description": "Searches for sandwich and stores result in database. Information pulled from Wikipedia API.",
         "picture": "/assets/images/burger.png",
         "alt": "Burger",
         "tech": ["HTML","CSS","Javascript","NodeJS","Express","Handlebars","jQuery","MVC","AJAX","API Routes","Materialize","MySQL"],
@@ -122,7 +122,7 @@
     {
         "name": "Crystal Game",
         "description": "Simple game where user clicks crystals and memorizes values to reach the goal score.",
-        "picture": "/assets/images/startrekrpg.png",
+        "picture": "/assets/images/crystal.png",
         "alt": "Star Trek RPG",
         "tech": ["HTML","CSS","Javascript","jQuery"],
         "repository": "https://github.com/alexjharrison/Crystal-Game",

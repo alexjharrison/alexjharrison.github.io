@@ -160,6 +160,12 @@ body {
 }
 
 
+@media screen and (max-width: 800px) {
+    .tech svg {
+        width: 90px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .content {
         margin: 0;

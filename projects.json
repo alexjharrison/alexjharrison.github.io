@@ -10,7 +10,7 @@
         "rating": 8
     },
     {
-        "name": "Furry Friends Finder",
+        "name": "Furry Friend Finder",
         "description": "Scans through database of dog breed traits to find the best breed for you.",
         "picture": "/assets/images/furry-friends.png",
         "alt": "Dog Pictures",

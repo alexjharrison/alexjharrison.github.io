@@ -34,6 +34,8 @@ $.getJSON("projects.json", json => {
         $('select').on('change', function(e) {
             insertProjects($(this).val(),6);
         });
+
+        $('.parallax').parallax();
         
 
     })
@@ -54,6 +56,7 @@ $.getJSON("projects.json", json => {
 
         if(block2.length===0) $("#show-button").hide();
         else $("#show-button").show();
+
 
         var projectInfo = $("#def-projects");
         var shownProj = $("<div>").addClass("shown");

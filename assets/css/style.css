@@ -49,10 +49,11 @@ body {
     line-height: 1.8;
     margin: 15px 0; 
 }
-#about img{
-    width: 100%;
-    margin: 20px 0;
+.parallax-container {
+    height: 200px;
+    margin: 20px;
 }
+
 
 
 

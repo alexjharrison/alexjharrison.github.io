@@ -99,6 +99,11 @@ body {
     align-items: center;
 }
 
+/* .tech:hover {
+    background-color: #f9f1f1;
+    border-radius: 15px;
+} */
+
 .tech p {
     margin: 0px;
 }
@@ -125,15 +130,33 @@ body {
     display: block;
 }
 
+.sidenav img{
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
 .content {
     margin-left: 220px;
 }
 
-
-
 #res-link {
-    color: #00A896;
+    color: #26c6da;
     margin-top: 20px;
+}
+
+#hamburger {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#hamburger i {
+    color:#00acc1;
+    background-color: #f9f1f1;
+    border-radius: 5px;
 }
 
 
@@ -141,5 +164,9 @@ body {
     .content {
         margin: 0;
         padding: 0;
+    }
+
+    #hamburger {
+        visibility: visible;
     }
 }

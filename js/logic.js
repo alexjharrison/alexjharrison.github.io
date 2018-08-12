@@ -4,9 +4,14 @@ $.getJSON("projects.json",json=>projects=json);
 
 
 $(()=>{
+    
     M.AutoInit();
     var elem = document.querySelector('.scrollspy');
     var instance = M.ScrollSpy.getInstance(elem);
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelector('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+    });
 
     insertProjects("",6);
 

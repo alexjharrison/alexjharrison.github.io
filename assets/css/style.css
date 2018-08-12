@@ -10,6 +10,9 @@ body {
 
 .splash img {
     max-height: 800px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
 }
 
 .banner {

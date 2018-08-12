@@ -1,7 +1,7 @@
 //document ready function
 var projects,hidProj;
 $.getJSON("projects.json",json=>projects=json);
-
+//new commit
 
 $(()=>{
     

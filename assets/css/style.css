@@ -43,6 +43,18 @@ body {
     1px 1px 0 #000;
 }
 
+/* /////////////About Me//////////////// */
+#about p {
+    text-indent: 40px;
+    font-size: 22px;
+    line-height: 1.8;
+    margin: 9px 0; 
+}
+.imgcol {
+    margin: 80px 0px;
+}
+
+
 /* /////////////Projects//////////////// */
 
 .description {
@@ -215,6 +227,9 @@ body {
 @media screen and (max-width: 992px) {
     .hideme {
         visibility: visible;
+    }
+    .imgcol {
+        margin: 0;
     }
 }
 

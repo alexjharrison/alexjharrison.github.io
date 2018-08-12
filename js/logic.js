@@ -14,6 +14,12 @@ $.getJSON("projects.json", json => {
             var instances = M.Sidenav.init(elems, options);
         });
         insertProjects("", 6);
+        var smallnav = M.Sidenav.getInstance(document.querySelector('.sidenav'));
+
+
+        $(".smallnav").click(()=>{
+            smallnav.close();
+        })
 
         $("#show-button").click(function (e) {
             e.preventDefault();

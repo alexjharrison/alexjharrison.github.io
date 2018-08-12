@@ -9,10 +9,12 @@ $.getJSON("projects.json", json => {
         M.AutoInit();
         var elem = document.querySelector('.scrollspy');
         var instance = M.ScrollSpy.getInstance(elem);
+        
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelector('.sidenav');
-            var instances = M.Sidenav.init(elems, options);
+            var instances = M.Sidenav.init(elems, {});
         });
+
         insertProjects("", 6);
         var smallnav = M.Sidenav.getInstance(document.querySelector('.sidenav'));
 

@@ -160,6 +160,18 @@ body {
 }
 
 
+/* //////////////contact///////////// */
+#contact img {
+    width: 50px;
+    margin: 10px 10px 10px 20px;
+}
+#contact a {
+    width: 75%;
+}
+
+
+
+
 @media screen and (max-width: 800px) {
     .tech svg {
         width: 90px;

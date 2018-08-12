@@ -13,7 +13,6 @@ $.getJSON("projects.json", json => {
             var elems = document.querySelector('.sidenav');
             var instances = M.Sidenav.init(elems, options);
         });
-
         insertProjects("", 6);
 
         $("#show-button").click(function (e) {

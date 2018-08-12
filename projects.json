@@ -24,7 +24,7 @@
         "description": "Searches for sandwich and stores result in database. Information pulled from Wikipedia API",
         "picture": "/assets/images/burger.png",
         "alt": "Burger",
-        "tech": ["HTML","CSS","Javascript","NodeJS","Express","Handlebars","jQuery","MVC","AJAX","API Routes","Materialize"],
+        "tech": ["HTML","CSS","Javascript","NodeJS","Express","Handlebars","jQuery","MVC","AJAX","API Routes","Materialize","MySQL"],
         "repository": "https://github.com/alexjharrison/Burger",
         "deployed": "https://alex-burger.herokuapp.com/",
         "rating": 6

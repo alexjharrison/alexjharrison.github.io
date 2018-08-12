@@ -46,6 +46,15 @@ body {
     font-size: 14px;
 }
 
+.filter {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.dropdown-trigger {
+    color:white;
+}
+
 .card-top {
     height: 80%;
     overflow: auto;

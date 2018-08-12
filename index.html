@@ -10,10 +10,12 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
 
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Alex Harrison Portfolio</title>
@@ -78,8 +80,30 @@
         </div>
     </div>
     <div id="projects" class="scrollspy">
-        <div class="banner valign-wrapper">
-            Projects
+        <div class="row banner valign-wrapper">
+            <div class="col">
+                Projects
+            </div>
+            <div class="col s3 offset-s3">
+                <p class="filter">Filter by</p>
+            </div>
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>None</option>
+                    <option value="NodeJS">NodeJS</option>
+                    <option value="Express">Express</option>
+                    <option value="React">React</option>
+                    <option value="jQuery">jQuery</option>
+                    <option value="MongoDB">MongoDB</option>
+                    <option value="MySQL">MySQL</option>
+                    <option value="Handlebars">Handlebars</option>
+                    <option value="Bootstrap">Bootstrap</option>
+                    <option value="Materialize">Materialize</option>
+                    <option value="Google Firebase">Google Firebase</option>
+                    <option value="MVC">MVC</option>
+
+                </select>
+            </div>
         </div>
         <div class="section row" id="project-info">
             <div id="def-projects"></div>

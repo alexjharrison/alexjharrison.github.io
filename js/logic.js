@@ -28,6 +28,13 @@ $.getJSON("projects.json", json => {
                 hidProj.slideDown();
             }
         })
+        
+
+               
+        $('select').on('change', function(e) {
+            insertProjects($(this).val(),6);
+        });
+        
 
     })
 
@@ -36,6 +43,7 @@ $.getJSON("projects.json", json => {
     }
 
     function insertProjects(descr, num) {
+
         var newList = projects;
         if (descr) {
             newList = newList.filter(project => project.tech.includes(descr));
@@ -43,6 +51,8 @@ $.getJSON("projects.json", json => {
         newList.sort((a, b) => { return b.rating - a.rating });
         var block1 = newList.slice(0, num);
         var block2 = newList.slice(num);
+
+        if(block2.length===0) $("#show-button").hide();
 
         var projectInfo = $("#def-projects");
         var shownProj = $("<div>").addClass("shown");
@@ -106,6 +116,7 @@ $.getJSON("projects.json", json => {
             hidProj.append(newCol);
         });
         hidProj.hide();
+        projectInfo.empty();
         projectInfo.append(shownProj).append(hidProj);
     }
 });

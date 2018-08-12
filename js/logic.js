@@ -53,6 +53,7 @@ $.getJSON("projects.json", json => {
         var block2 = newList.slice(num);
 
         if(block2.length===0) $("#show-button").hide();
+        else $("#show-button").show();
 
         var projectInfo = $("#def-projects");
         var shownProj = $("<div>").addClass("shown");

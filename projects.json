@@ -138,5 +138,35 @@
         "repository": "https://github.com/alexjharrison/Word-Guess-Game",
         "deployed": "https://alexjharrison.github.io/Word-Guess-Game/",
         "rating": 5
+    },
+    {
+        "name": "Hernoku.us",
+        "description": "Website that can host github projects on a local raspberry pi.  Listens for master branch updates and downloads to deployed version.",
+        "picture": "/assets/images/hernoku.png",
+        "alt": "Hernoku",
+        "tech": ["Javascript","React","Oath2","PassportJS","Express","MySQL","Materialize","API Routes","HTML","CSS"],
+        "repository": "https://github.com/alexjharrison/Word-Guess-Game",
+        "deployed": "http://hernoku.us/",
+        "rating": 10
+    },
+    {
+        "name": "Github Puller Proxy",
+        "description": "Companion back end app to Hernoku that listens to Github webhooks and updates locally hosted code.",
+        "picture": "/assets/images/puller-proxy.png",
+        "alt": "Hernoku",
+        "tech": ["Javascript","Express","MySQL","Sequelize","MongoDB","Materialize","API Routes"],
+        "repository": "https://github.com/alexjharrison/Github-Puller-Proxy",
+        "deployed": "http://hernoku.us/",
+        "rating": 7
+    },
+    {
+        "name": "Memory Game",
+        "description": "Memory game where the user cannot click the same picture twice.  Pictures are randomized after each guess.",
+        "picture": "/assets/images/dog-word-guess.png",
+        "alt": "Dog Word Guess",
+        "tech": ["React","Materialize","HTML","CSS","Javascript"],
+        "repository": "https://github.com/alexjharrison/Memory-Game",
+        "deployed": "https://alexjharrison.github.io/Memory-Game/",
+        "rating": 7
     }
 ]

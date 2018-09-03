@@ -162,7 +162,7 @@
     {
         "name": "Memory Game",
         "description": "Memory game where the user cannot click the same picture twice.  Pictures are randomized after each guess.",
-        "picture": "/assets/images/dog-word-guess.png",
+        "picture": "/assets/images/memory-game.png",
         "alt": "Dog Word Guess",
         "tech": ["React","Materialize","HTML","CSS","Javascript"],
         "repository": "https://github.com/alexjharrison/Memory-Game",

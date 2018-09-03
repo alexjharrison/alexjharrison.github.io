@@ -145,7 +145,7 @@
         "picture": "/assets/images/hernoku.png",
         "alt": "Hernoku",
         "tech": ["Javascript","React","Oath2","PassportJS","Express","MySQL","Materialize","API Routes","HTML","CSS"],
-        "repository": "https://github.com/alexjharrison/Word-Guess-Game",
+        "repository": "https://github.com/alexjharrison/Hernoku",
         "deployed": "http://hernoku.us/",
         "rating": 10
     },
@@ -163,7 +163,7 @@
         "name": "Memory Game",
         "description": "Memory game where the user cannot click the same picture twice.  Pictures are randomized after each guess.",
         "picture": "/assets/images/memory-game.png",
-        "alt": "Dog Word Guess",
+        "alt": "Memory Game",
         "tech": ["React","Materialize","HTML","CSS","Javascript"],
         "repository": "https://github.com/alexjharrison/Memory-Game",
         "deployed": "https://alexjharrison.github.io/Memory-Game/",

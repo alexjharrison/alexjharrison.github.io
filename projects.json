@@ -146,7 +146,7 @@
         "alt": "Hernoku",
         "tech": ["Javascript","React","Oath2","PassportJS","Express","MySQL","Materialize","API Routes","HTML","CSS"],
         "repository": "https://github.com/alexjharrison/Hernoku",
-        "deployed": "http://hernoku.us/",
+        "deployed": "",
         "rating": 10
     },
     {
@@ -156,7 +156,7 @@
         "alt": "Hernoku",
         "tech": ["Javascript","Express","MySQL","Sequelize","MongoDB","Materialize","API Routes"],
         "repository": "https://github.com/alexjharrison/Github-Puller-Proxy",
-        "deployed": "http://hernoku.us/",
+        "deployed": "",
         "rating": 7
     },
     {

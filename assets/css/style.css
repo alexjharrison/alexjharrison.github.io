@@ -9,7 +9,7 @@ body {
 /* /////////////Splash Image///////// */
 
 .splash img {
-    max-height: 800px;
+    max-height: 50vh;
     object-fit: cover;
     overflow: hidden;
     width: 100%;
